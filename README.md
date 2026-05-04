@@ -60,3 +60,13 @@ flutter build ipa
 - Android `applicationId`: `com.sitek94.questionsapp`
 - iOS bundle ID: `com.sitek94.questionsapp`
 - Version: `1.0.0+1`
+
+## AI agent instructions
+
+Agent-readable instructions live alongside the code:
+
+- `AGENTS.md` — control plane, required reading order, hard constraints.
+- `.agents/project/` — app-specific rules (scope, architecture, testing, review checklist).
+- `.agents/skills/flutter/` — reusable Flutter/Dart implementation standards.
+- `docs/product/mvp.md` — active product spec.
+- `docs/research/` — background research and source material.
