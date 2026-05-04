@@ -36,12 +36,7 @@ class _SessionScreenState extends State<SessionScreen> {
   }
 
   void _onRestart() {
-    setState(() {
-      _session = QuestionSession.start(
-        deck: widget.deck,
-        questions: widget.questions,
-      );
-    });
+    setState(() => _session = _session.restart());
   }
 
   void _onChooseAnotherDeck() {
