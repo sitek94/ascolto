@@ -98,11 +98,9 @@ docs/
 
 ## Adapter files
 
-Other agent tools (Claude, Cursor rules, etc.) may add adapter files later. If added, they MUST be tiny pointers to this file, e.g.:
+Tool-specific adapter files are tiny pointers to this control plane. They MUST NOT duplicate rules.
 
-```md
-# CLAUDE.md
-Follow `AGENTS.md`. For Flutter/Dart rules, read `.agents/skills/flutter/SKILL.md`.
-```
+- `CLAUDE.md` — Claude Code adapter; points here and to `.agents/skills/flutter/SKILL.md`.
+- `.cursor/rules/flutter.mdc` — Cursor rule with `alwaysApply: true` and a `**/*.dart` glob; points here and to the project + skill files.
 
-This avoids drift. There is one canonical instruction set: this one.
+If you add another adapter (e.g. for a new agent tool), keep it tiny and reference this file. There is one canonical instruction set: this one.
