@@ -6,9 +6,9 @@ Feature-first Flutter layout with no service layer, no domain layer, and no shar
 
 ```
 lib/
-  main.dart                 # entrypoint; runApp(const AscoltoApp())
+  main.dart                 # entrypoint; runApp(const GenuineGossipApp())
   app/
-    ascolto_app.dart        # MaterialApp + theme + initial route
+    genuine_gossip_app.dart # MaterialApp + theme + initial route
   ui/
     app_theme.dart          # light Material 3 ThemeData
   features/

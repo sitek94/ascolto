@@ -1,6 +1,6 @@
 # Project Scope
 
-**Ascolto** is a minimal **offline Flutter app** for iOS and Android that shows relationship and conversation prompt cards. Two screens, hardcoded content, no network, no persistence.
+**Genuine Gossip** is a minimal **offline Flutter app** for iOS and Android that shows relationship and conversation prompt cards. Two screens, hardcoded content, no network, no persistence.
 
 Scope decisions here override anything in `docs/research/*`. If a research document suggests a feature that is not listed as Allowed below, it is Forbidden by default.
 

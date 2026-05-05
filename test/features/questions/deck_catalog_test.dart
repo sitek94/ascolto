@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ascolto/features/questions/deck_catalog.dart';
-import 'package:ascolto/features/questions/deck_definition.dart';
-import 'package:ascolto/features/questions/question.dart';
-import 'package:ascolto/features/questions/question_catalog.dart';
+import 'package:genuine_gossip/features/questions/deck_catalog.dart';
+import 'package:genuine_gossip/features/questions/deck_definition.dart';
+import 'package:genuine_gossip/features/questions/question.dart';
+import 'package:genuine_gossip/features/questions/question_catalog.dart';
 
 void main() {
   group('deckCatalog', () {

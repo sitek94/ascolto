@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'app/ascolto_app.dart';
+import 'app/genuine_gossip_app.dart';
 
 void main() {
-  runApp(const AscoltoApp());
+  runApp(const GenuineGossipApp());
 }

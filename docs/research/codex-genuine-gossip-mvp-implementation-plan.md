@@ -1,10 +1,10 @@
-# Codex Implementation Plan: Ascolto MVP v0
+# Codex Implementation Plan: Genuine Gossip MVP v0
 
 ## 0. Inputs Codex must use
 
 Codex will receive:
 
-1. `minimal-offline-flutter-ascolto-report.md`
+1. `minimal-offline-flutter-genuine-gossip-report.md`
 2. `Flutter and Dart Best Practices Pack.md`
 3. This implementation plan
 
@@ -92,10 +92,10 @@ Do **not** implement:
 Use these defaults without asking follow-up questions:
 
 ```txt
-Project name: ascolto
-Display name: Ascolto
-Android application ID: com.macieksitkowski.ascolto
-Apple bundle ID: com.macieksitkowski.ascolto
+Project name: genuine_gossip
+Display name: Genuine Gossip
+Android application ID: com.macieksitkowski.genuinegossip
+Apple bundle ID: com.macieksitkowski.genuinegossip
 Supported platforms: iOS, Android
 State management: local StatefulWidget state + pure Dart session model
 Routing: plain Navigator.push / Navigator.pop
@@ -146,13 +146,13 @@ Follow the best-practices pack, but keep the app smaller than a production templ
 ### If creating the Flutter project from outside the repo
 
 ```bash
-flutter create --empty --platforms=ios,android --org com.macieksitkowski ascolto
-cd ascolto
+flutter create --empty --platforms=ios,android --org com.macieksitkowski genuine_gossip
+cd genuine_gossip
 ```
 
 ### If Codex is already inside an empty repo root
 
-Use this only if the repo directory name is Dart-valid, for example `ascolto`:
+Use this only if the repo directory name is Dart-valid, for example `genuine_gossip`:
 
 ```bash
 flutter create --empty --platforms=ios,android --org com.macieksitkowski .
@@ -217,7 +217,7 @@ Implement this structure:
 lib/
   main.dart
   app/
-    ascolto.dart
+    genuine_gossip.dart
   ui/
     app_theme.dart
   features/
@@ -538,14 +538,14 @@ Keep this tiny:
 
 ```dart
 import 'package:flutter/material.dart';
-import 'app/ascolto.dart';
+import 'app/genuine_gossip.dart';
 
 void main() {
-  runApp(const AscoltoApp());
+  runApp(const GenuineGossipApp());
 }
 ```
 
-### `lib/app/ascolto.dart`
+### `lib/app/genuine_gossip.dart`
 
 Create root `MaterialApp`.
 
@@ -755,7 +755,7 @@ Widget-test implementation notes:
 Tasks:
 
 1. Run `flutter create`.
-2. Confirm package name is `ascolto`.
+2. Confirm package name is `genuine_gossip`.
 3. Confirm iOS and Android platforms exist.
 4. Replace generated starter with minimal app skeleton.
 5. Run validation commands.
@@ -779,7 +779,7 @@ Done when:
 
 Tasks:
 
-1. Create `lib/app/ascolto.dart`.
+1. Create `lib/app/genuine_gossip.dart`.
 2. Create `lib/ui/app_theme.dart`.
 3. Keep `main.dart` minimal.
 4. Set `home` to a temporary placeholder or directly to `DeckListScreen` after Phase 4.
@@ -819,7 +819,7 @@ Tasks:
 
 1. Create `deck_list_screen.dart`.
 2. Create `deck_card.dart`.
-3. Wire `AscoltoApp.home` to `DeckListScreen`.
+3. Wire `GenuineGossipApp.home` to `DeckListScreen`.
 4. Render all deck cards from `deckCatalog`.
 5. Add tap handler, but session screen can be temporary if not implemented yet.
 
@@ -897,8 +897,8 @@ Done when:
 
 Tasks:
 
-1. Ensure display name is `Ascolto`.
-2. Ensure app identifiers are placeholders or set to `com.macieksitkowski.ascolto`.
+1. Ensure display name is `Genuine Gossip`.
+2. Ensure app identifiers are placeholders or set to `com.macieksitkowski.genuinegossip`.
 3. Set `version: 1.0.0+1` in `pubspec.yaml`.
 4. Write `README.md` with:
    - app purpose

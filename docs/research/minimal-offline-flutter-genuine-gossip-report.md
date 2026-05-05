@@ -1,4 +1,4 @@
-# Minimal Offline Flutter Ascolto Research Report
+# Minimal Offline Flutter Genuine Gossip Research Report
 
 ## Executive summary
 
@@ -365,10 +365,10 @@ This section is intentionally code-free and task-oriented.
 **Tasks**
 1. Create a new Flutter app from the empty template.
 2. Set placeholder names:
-   - Dart project: `ascolto`
-   - Android application ID: `com.example.ascolto`
-   - iOS bundle ID: `com.example.ascolto`
-   - display name placeholder: `Ascolto`
+   - Dart project: `genuine_gossip`
+   - Android application ID: `com.example.genuinegossip`
+   - iOS bundle ID: `com.example.genuinegossip`
+   - display name placeholder: `Genuine Gossip`
 3. Keep iOS + Android targets only.
 4. Verify local run on iOS simulator and Android emulator/device.
 

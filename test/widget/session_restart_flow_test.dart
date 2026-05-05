@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ascolto/app/ascolto_app.dart';
-import 'package:ascolto/features/questions/deck_catalog.dart';
-import 'package:ascolto/features/questions/deck_definition.dart';
+import 'package:genuine_gossip/app/genuine_gossip_app.dart';
+import 'package:genuine_gossip/features/questions/deck_catalog.dart';
+import 'package:genuine_gossip/features/questions/deck_definition.dart';
 
 void main() {
   testWidgets('Restart returns the session to the beginning', (tester) async {
-    await tester.pumpWidget(const AscoltoApp());
+    await tester.pumpWidget(const GenuineGossipApp());
     await tester.pumpAndSettle();
 
     final deck = deckCatalog.firstWhere((d) => d.id == DeckId.intimate);

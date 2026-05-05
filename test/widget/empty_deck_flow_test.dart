@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ascolto/features/questions/deck_definition.dart';
-import 'package:ascolto/features/session/session_screen.dart';
+import 'package:genuine_gossip/features/questions/deck_definition.dart';
+import 'package:genuine_gossip/features/session/session_screen.dart';
 
 void main() {
   const deck = DeckDefinition(

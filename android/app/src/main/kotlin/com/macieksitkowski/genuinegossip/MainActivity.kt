@@ -1,4 +1,4 @@
-package com.macieksitkowski.ascolto
+package com.macieksitkowski.genuinegossip
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,4 +1,4 @@
-# Ascolto — MVP v0
+# Genuine Gossip — MVP v0
 
 Active product spec. This is the single source of truth for what the app does today. Background research lives in `../research/`.
 
@@ -42,9 +42,9 @@ The full Forbidden list lives in `../../.agents/project/scope.md`.
 
 ## App identity
 
-- Display name: `Ascolto` (Italian for "listening", pronounced *ah-SKOL-toh*)
-- Android `applicationId`: `com.macieksitkowski.ascolto`
-- iOS bundle ID: `com.macieksitkowski.ascolto`
+- Display name: `Genuine Gossip`
+- Android `applicationId`: `com.macieksitkowski.genuinegossip`
+- iOS bundle ID: `com.macieksitkowski.genuinegossip`
 - Version: `1.0.0+1`
 
 ## Distribution
@@ -56,6 +56,6 @@ The full Forbidden list lives in `../../.agents/project/scope.md`.
 
 For background and rationale (do not treat as active rules):
 
-- `../research/codex-ascolto-mvp-implementation-plan.md` — implementation plan that produced the current code.
-- `../research/minimal-offline-flutter-ascolto-report.md` — long-form research on the architectural choices.
+- `../research/codex-genuine-gossip-mvp-implementation-plan.md` — implementation plan that produced the current code.
+- `../research/minimal-offline-flutter-genuine-gossip-report.md` — long-form research on the architectural choices.
 - `../research/flutter-dart-best-practices-pack.md` — general Flutter/Dart best-practices pack used as input to `.agents/skills/flutter/`.

@@ -4,7 +4,7 @@ Control plane for AI coding agents working on this repository. Keep this file sh
 
 ## Project identity
 
-- **Name:** Ascolto (Italian for "listening", pronounced *ah-SKOL-toh*)
+- **Name:** Genuine Gossip
 - **What:** Minimal offline Flutter app (iOS + Android) that shows relationship and conversation prompt cards, one at a time.
 - **Stack:** Flutter (Dart 3.6+), Material 3, no backend, no persistence, no third-party state library.
 - **Status:** MVP v0. Intentionally tiny. Do not expand scope.
@@ -95,8 +95,8 @@ docs/
     mvp.md
   research/                            # background research, source archive
     flutter-dart-best-practices-pack.md
-    minimal-offline-flutter-ascolto-report.md
-    codex-ascolto-mvp-implementation-plan.md
+    minimal-offline-flutter-genuine-gossip-report.md
+    codex-genuine-gossip-mvp-implementation-plan.md
 ```
 
 ## Adapter files

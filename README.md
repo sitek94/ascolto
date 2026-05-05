@@ -1,6 +1,6 @@
-# Ascolto
+# Genuine Gossip
 
-Ascolto (Italian for "listening", pronounced /aˈskɔlto/, like *ah-SKOL-toh*) is a small offline Flutter app for iOS and Android that shows relationship and conversation prompt cards. Open the app, pick a deck, and tap through one question at a time.
+Genuine Gossip is a small offline Flutter app for iOS and Android that shows relationship and conversation prompt cards. Open the app, pick a deck, and tap through one question at a time.
 
 ## MVP scope (v0)
 
@@ -30,7 +30,7 @@ The catalog is intentionally hardcoded in Dart source code (`lib/features/questi
 ```
 lib/
   main.dart
-  app/ascolto_app.dart
+  app/genuine_gossip_app.dart
   ui/app_theme.dart
   features/
     questions/        # Question + deck models, catalog, filters
@@ -95,9 +95,9 @@ flutter build appbundle --release
 
 ## App identity
 
-- Display name: `Ascolto`
-- Android `applicationId`: `com.macieksitkowski.ascolto`
-- iOS bundle ID: `com.macieksitkowski.ascolto`
+- Display name: `Genuine Gossip`
+- Android `applicationId`: `com.macieksitkowski.genuinegossip`
+- iOS bundle ID: `com.macieksitkowski.genuinegossip`
 - Version: `1.0.0+1`
 
 ## AI agent instructions
