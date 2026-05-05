@@ -96,8 +96,8 @@ flutter build appbundle --release
 ## App identity
 
 - Display name: `Ascolto`
-- Android `applicationId`: `com.macieksitkowski.questionsapp`
-- iOS bundle ID: `com.macieksitkowski.questionsapp`
+- Android `applicationId`: `com.macieksitkowski.ascolto`
+- iOS bundle ID: `com.macieksitkowski.ascolto`
 - Version: `1.0.0+1`
 
 ## AI agent instructions
