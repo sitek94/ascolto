@@ -12,10 +12,7 @@ class DeckListScreen extends StatelessWidget {
     final questions = questionsForDeck(deck);
     Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => SessionScreen(
-          deck: deck,
-          questions: questions,
-        ),
+        builder: (_) => SessionScreen(deck: deck, questions: questions),
       ),
     );
   }

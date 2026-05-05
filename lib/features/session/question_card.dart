@@ -3,10 +3,7 @@ import 'package:flutter/material.dart';
 import '../questions/question.dart';
 
 class QuestionCard extends StatelessWidget {
-  const QuestionCard({
-    super.key,
-    required this.question,
-  });
+  const QuestionCard({super.key, required this.question});
 
   final Question question;
 

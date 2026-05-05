@@ -6,11 +6,7 @@ import 'question_card.dart';
 import 'question_session.dart';
 
 class SessionScreen extends StatefulWidget {
-  const SessionScreen({
-    super.key,
-    required this.deck,
-    required this.questions,
-  });
+  const SessionScreen({super.key, required this.deck, required this.questions});
 
   final DeckDefinition deck;
   final List<Question> questions;
@@ -47,26 +43,24 @@ class _SessionScreenState extends State<SessionScreen> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.deck.title),
-      ),
+      appBar: AppBar(title: Text(widget.deck.title)),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
           child: _session.isEmpty
               ? _EmptyDeckView(onChooseAnotherDeck: _onChooseAnotherDeck)
               : _session.isFinished
-                  ? _FinishedView(
-                      total: _session.totalCount,
-                      onRestart: _onRestart,
-                      onChooseAnotherDeck: _onChooseAnotherDeck,
-                    )
-                  : _ActiveSessionView(
-                      session: _session,
-                      theme: theme,
-                      onNext: _onNext,
-                      onChooseAnotherDeck: _onChooseAnotherDeck,
-                    ),
+              ? _FinishedView(
+                  total: _session.totalCount,
+                  onRestart: _onRestart,
+                  onChooseAnotherDeck: _onChooseAnotherDeck,
+                )
+              : _ActiveSessionView(
+                  session: _session,
+                  theme: theme,
+                  onNext: _onNext,
+                  onChooseAnotherDeck: _onChooseAnotherDeck,
+                ),
         ),
       ),
     );
@@ -111,10 +105,7 @@ class _ActiveSessionView extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 16),
-        FilledButton(
-          onPressed: onNext,
-          child: const Text('Next'),
-        ),
+        FilledButton(onPressed: onNext, child: const Text('Next')),
         const SizedBox(height: 8),
         TextButton(
           onPressed: onChooseAnotherDeck,
@@ -164,10 +155,7 @@ class _FinishedView extends StatelessWidget {
             ),
           ),
         ),
-        FilledButton(
-          onPressed: onRestart,
-          child: const Text('Restart deck'),
-        ),
+        FilledButton(onPressed: onRestart, child: const Text('Restart deck')),
         const SizedBox(height: 8),
         TextButton(
           onPressed: onChooseAnotherDeck,

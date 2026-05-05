@@ -8,24 +8,11 @@ enum QuestionTopic {
   intimacy,
 }
 
-enum QuestionVibe {
-  playful,
-  reflective,
-  deep,
-  flirty,
-}
+enum QuestionVibe { playful, reflective, deep, flirty }
 
-enum QuestionExplicitness {
-  none,
-  suggestive,
-  sexual,
-}
+enum QuestionExplicitness { none, suggestive, sexual }
 
-enum QuestionFormat {
-  question,
-  prompt,
-  challenge,
-}
+enum QuestionFormat { question, prompt, challenge }
 
 final class Question {
   const Question({
