@@ -56,6 +56,6 @@ The full Forbidden list lives in `../../.agents/project/scope.md`.
 
 For background and rationale (do not treat as active rules):
 
-- `../research/codex-questions-app-mvp-implementation-plan.md` — implementation plan that produced the current code.
-- `../research/minimal-offline-flutter-questions-app-report.md` — long-form research on the architectural choices.
+- `../research/codex-ascolto-mvp-implementation-plan.md` — implementation plan that produced the current code.
+- `../research/minimal-offline-flutter-ascolto-report.md` — long-form research on the architectural choices.
 - `../research/flutter-dart-best-practices-pack.md` — general Flutter/Dart best-practices pack used as input to `.agents/skills/flutter/`.

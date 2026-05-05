@@ -91,8 +91,8 @@ docs/
     mvp.md
   research/                            # background research, source archive
     flutter-dart-best-practices-pack.md
-    minimal-offline-flutter-questions-app-report.md
-    codex-questions-app-mvp-implementation-plan.md
+    minimal-offline-flutter-ascolto-report.md
+    codex-ascolto-mvp-implementation-plan.md
 ```
 
 ## Adapter files

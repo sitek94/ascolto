@@ -1,6 +1,6 @@
 # Project Scope
 
-This is a minimal **offline Flutter questions app** for iOS and Android. Two screens, hardcoded content, no network, no persistence.
+**Ascolto** is a minimal **offline Flutter app** for iOS and Android that shows relationship and conversation prompt cards. Two screens, hardcoded content, no network, no persistence.
 
 Scope decisions here override anything in `docs/research/*`. If a research document suggests a feature that is not listed as Allowed below, it is Forbidden by default.
 
