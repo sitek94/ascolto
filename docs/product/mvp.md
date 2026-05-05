@@ -1,4 +1,4 @@
-# Questions App — MVP v0
+# Ascolto — MVP v0
 
 Active product spec. This is the single source of truth for what the app does today. Background research lives in `../research/`.
 
@@ -42,7 +42,7 @@ The full Forbidden list lives in `../../.agents/project/scope.md`.
 
 ## App identity
 
-- Display name: `Questions`
+- Display name: `Ascolto` (Italian for "listening", pronounced *ah-SKOL-toh*)
 - Android `applicationId`: `com.macieksitkowski.questionsapp`
 - iOS bundle ID: `com.macieksitkowski.questionsapp`
 - Version: `1.0.0+1`

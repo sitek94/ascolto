@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:questions_app/features/questions/deck_definition.dart';
-import 'package:questions_app/features/session/session_screen.dart';
+import 'package:ascolto/features/questions/deck_definition.dart';
+import 'package:ascolto/features/session/session_screen.dart';
 
 void main() {
   const deck = DeckDefinition(
@@ -21,10 +21,8 @@ void main() {
                   onPressed: () {
                     Navigator.of(context).push(
                       MaterialPageRoute<void>(
-                        builder: (_) => const SessionScreen(
-                          deck: deck,
-                          questions: [],
-                        ),
+                        builder: (_) =>
+                            const SessionScreen(deck: deck, questions: []),
                       ),
                     );
                   },

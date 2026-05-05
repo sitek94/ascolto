@@ -4,7 +4,7 @@ Control plane for AI coding agents working on this repository. Keep this file sh
 
 ## Project identity
 
-- **Name:** Questions
+- **Name:** Ascolto (Italian for "listening", pronounced *ah-SKOL-toh*)
 - **What:** Minimal offline Flutter app (iOS + Android) that shows relationship and conversation prompt cards, one at a time.
 - **Stack:** Flutter (Dart 3.6+), Material 3, no backend, no persistence, no third-party state library.
 - **Status:** MVP v0. Intentionally tiny. Do not expand scope.

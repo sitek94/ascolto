@@ -1,5 +1,5 @@
-name: questions_app
-description: "Questions: an offline Flutter app of relationship and conversation prompt cards."
+name: ascolto
+description: "Ascolto: an offline Flutter app of relationship and conversation prompt cards."
 publish_to: 'none'
 version: 1.0.0+1
 

@@ -1,6 +1,6 @@
-# Questions
+# Ascolto
 
-A small offline Flutter app for iOS and Android that shows relationship and conversation prompt cards. Open the app, pick a deck, and tap through one question at a time.
+Ascolto (Italian for "listening", pronounced /aˈskɔlto/, like *ah-SKOL-toh*) is a small offline Flutter app for iOS and Android that shows relationship and conversation prompt cards. Open the app, pick a deck, and tap through one question at a time.
 
 ## MVP scope (v0)
 
@@ -30,7 +30,7 @@ The catalog is intentionally hardcoded in Dart source code (`lib/features/questi
 ```
 lib/
   main.dart
-  app/questions_app.dart
+  app/ascolto_app.dart
   ui/app_theme.dart
   features/
     questions/        # Question + deck models, catalog, filters
@@ -78,7 +78,7 @@ flutter run
 flutter build appbundle  # Android, requires release signing (see below)
 ```
 
-> iOS distribution (`flutter build ipa`) is intentionally out of scope for this MVP — codesigning/provisioning is not configured in the repo.
+Both iOS (TestFlight / App Store) and Android (Google Play internal testing) are in scope for distribution. See `docs/product/mvp.md` for the active product spec. iOS signing (CocoaPods + Apple Developer team) is not yet wired in the repo.
 
 ## Android release signing
 
@@ -95,7 +95,7 @@ flutter build appbundle --release
 
 ## App identity
 
-- Display name: `Questions`
+- Display name: `Ascolto`
 - Android `applicationId`: `com.macieksitkowski.questionsapp`
 - iOS bundle ID: `com.macieksitkowski.questionsapp`
 - Version: `1.0.0+1`

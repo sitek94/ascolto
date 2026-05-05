@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:questions_app/features/questions/deck_definition.dart';
-import 'package:questions_app/features/questions/question.dart';
-import 'package:questions_app/features/session/question_session.dart';
+import 'package:ascolto/features/questions/deck_definition.dart';
+import 'package:ascolto/features/questions/question.dart';
+import 'package:ascolto/features/session/question_session.dart';
 
 const _deck = DeckDefinition(
   id: DeckId.shuffleEverything,

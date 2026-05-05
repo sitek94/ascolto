@@ -33,7 +33,7 @@ class DeckListScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 8, bottom: 4),
                 child: Text(
-                  'Questions',
+                  'Ascolto',
                   style: theme.textTheme.headlineMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),

@@ -12,7 +12,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.macieksitkowski.questions_app"
+    namespace = "com.macieksitkowski.ascolto"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

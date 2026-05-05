@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'app/questions_app.dart';
+import 'app/ascolto_app.dart';
 
 void main() {
-  runApp(const QuestionsApp());
+  runApp(const AscoltoApp());
 }

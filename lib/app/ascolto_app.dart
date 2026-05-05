@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import '../features/deck_selection/deck_list_screen.dart';
 import '../ui/app_theme.dart';
 
-class QuestionsApp extends StatelessWidget {
-  const QuestionsApp({super.key});
+class AscoltoApp extends StatelessWidget {
+  const AscoltoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Questions',
+      title: 'Ascolto',
       debugShowCheckedModeBanner: false,
       theme: buildAppTheme(),
       themeMode: ThemeMode.light,

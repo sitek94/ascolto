@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:questions_app/features/questions/deck_catalog.dart';
-import 'package:questions_app/features/questions/deck_definition.dart';
-import 'package:questions_app/features/questions/question.dart';
-import 'package:questions_app/features/questions/question_catalog.dart';
+import 'package:ascolto/features/questions/deck_catalog.dart';
+import 'package:ascolto/features/questions/deck_definition.dart';
+import 'package:ascolto/features/questions/question.dart';
+import 'package:ascolto/features/questions/question_catalog.dart';
 
 void main() {
   group('deckCatalog', () {
@@ -66,8 +66,9 @@ void main() {
     });
 
     test('Shuffle Everything returns the full catalog', () {
-      final deck =
-          deckCatalog.firstWhere((d) => d.id == DeckId.shuffleEverything);
+      final deck = deckCatalog.firstWhere(
+        (d) => d.id == DeckId.shuffleEverything,
+      );
       final results = questionsForDeck(deck);
       expect(results.length, questionCatalog.length);
     });
@@ -91,8 +92,9 @@ void main() {
     });
 
     test('Relationship Check-in respects topic and explicitness rules', () {
-      final deck =
-          deckCatalog.firstWhere((d) => d.id == DeckId.relationshipCheckIn);
+      final deck = deckCatalog.firstWhere(
+        (d) => d.id == DeckId.relationshipCheckIn,
+      );
       final allowedTopics = {
         QuestionTopic.connection,
         QuestionTopic.communication,
