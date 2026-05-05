@@ -48,6 +48,10 @@ When sources conflict, higher wins:
 - Do not add new dependencies without a task that justifies them.
 - Do not duplicate rules across multiple agent files. This file plus `.agents/` is canonical; any tool-specific adapters (e.g. `CLAUDE.md`, `.cursor/rules/*`) must be tiny pointers.
 
+## Expanding rules
+
+When a task crosses a Forbidden line in `.agents/project/scope.md` and the user authorizes the expansion, add a single focused `.agents/skills/flutter/references/<topic>.md` lifting only the rules relevant to that change from current Flutter docs. Do not preemptively pull in generic rule sheets. Reference docs are loaded on demand; rules grow when code grows.
+
 ## Validation commands
 
 Run after any non-trivial change:

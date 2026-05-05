@@ -48,6 +48,7 @@ Load these only when the task touches the topic:
 - State management decision tree: `references/state-management.md`
 - Testing patterns: `references/testing.md`
 - Anti-patterns to refuse: `references/anti-patterns.md`
+- Accessibility & readability: `references/a11y.md`
 
 ## Refusal cases
 
