@@ -1,28 +1,26 @@
 ---
-description: Pointer to canonical AI agent instructions for this Flutter app
+description: Pointer to canonical AI agent instructions for the Flutter app
 globs:
-  - "**/*.dart"
-  - "pubspec.yaml"
-  - "analysis_options.yaml"
-alwaysApply: true
+  - "apps/mobile/**/*.dart"
+  - "apps/mobile/pubspec.yaml"
+  - "apps/mobile/analysis_options.yaml"
+alwaysApply: false
 ---
 
 # Flutter agent rules (pointer)
 
-Canonical instructions for this repo live in `AGENTS.md` and `.agents/`.
+Canonical instructions for the mobile app live in `apps/mobile/AGENTS.md` and `apps/mobile/.agents/`.
 
-Before editing any code, read:
+Before editing any code under `apps/mobile/`, read:
 
-1. [`AGENTS.md`](mdc:AGENTS.md) — control plane.
-2. [`.agents/project/scope.md`](mdc:.agents/project/scope.md) — what's in/out of MVP v0.
-3. [`.agents/project/architecture.md`](mdc:.agents/project/architecture.md) — folder layout and architectural rules.
-4. [`.agents/skills/flutter/SKILL.md`](mdc:.agents/skills/flutter/SKILL.md) — Flutter/Dart implementation defaults.
+1. [`apps/mobile/AGENTS.md`](mdc:apps/mobile/AGENTS.md) — control plane.
+2. [`apps/mobile/.agents/project/scope.md`](mdc:apps/mobile/.agents/project/scope.md) — what's in/out of MVP v0.
+3. [`apps/mobile/.agents/project/architecture.md`](mdc:apps/mobile/.agents/project/architecture.md) — folder layout and architectural rules.
+4. [`apps/mobile/.agents/skills/flutter/SKILL.md`](mdc:apps/mobile/.agents/skills/flutter/SKILL.md) — Flutter/Dart implementation defaults.
 
 For tests also read:
 
-- [`.agents/project/testing.md`](mdc:.agents/project/testing.md)
-- [`.agents/skills/flutter/references/testing.md`](mdc:.agents/skills/flutter/references/testing.md)
-
-Pull deeper references from `.agents/skills/flutter/references/` only when the task touches that topic.
+- [`apps/mobile/.agents/project/testing.md`](mdc:apps/mobile/.agents/project/testing.md)
+- [`apps/mobile/.agents/skills/flutter/references/testing.md`](mdc:apps/mobile/.agents/skills/flutter/references/testing.md)
 
 Do not duplicate rules in this file. It is a pointer only.
